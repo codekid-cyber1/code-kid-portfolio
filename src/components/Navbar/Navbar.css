@@ -50,7 +50,59 @@
 .nav-mob-close{
     display: none;
 }
-@media(max-width: 768px){
+@media(max-width: 481px){
+    .navbar{
+        margin: 20px 50px;
+        container-type: inline-size;
+    }
+    .navbar .nav-logo{
+        width:23cqw;
+        padding-left: 3%;
+      }
+    .nav-connect{
+        display: none;;
+    }
+    .nav-mob-open{
+        width:9cqw;
+        display: block;
+        position: fixed;
+        right: 30px;
+        cursor: pointer;
+    }
+    .nav-mob-close{
+        position: relative;
+        display: block;
+        top: 30px;
+        left: 80%;
+        width: 10cqw;
+        cursor: pointer;
+
+    }
+    .nav-menu{
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 50vw;
+        background-color: #1f0016;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+        z-index: 2;
+        transition: right 0.3s;
+        right: -250px;
+        container-type: inline-size;
+    }
+    .nav-menu li{
+        font-size: 10cqw;
+        padding-left: 16%;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .nav-menu li img{
+        width: 18cqw;
+    }
+}
+@media(min-width: 481px) and (max-width: 768px){
     .navbar{
         margin: 20px 50px;
     }
@@ -67,7 +119,7 @@
         position: relative;
         display: block;
         top: 30px;
-        left: 290px;
+        left: 80%;
         width: 30px;
         cursor: pointer;
     }
@@ -75,19 +127,23 @@
         position: fixed;
         top: 0;
         height: 100%;
-        width: 350px;
+        width: 50vw;
         background-color: #1f0016;
         flex-direction: column;
         align-items: start;
-        gap: 30px;
+        gap: 4.7%;
         z-index: 2;
         transition: right 0.3s;
         right: -350px;
+        container-type: inline-size;
     }
     .nav-menu li{
-        font-size: 30px;
-        padding-left: 100px;
+        font-size: 8.5cqw;
+        padding-left: 16%;
         flex-direction: row;
         gap: 20px;
     }
+}
+@media (min-width: 768px) and(min-width: 1024px){
+
 }

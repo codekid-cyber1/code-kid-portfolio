@@ -4,6 +4,13 @@
     flex-direction: column;
     gap: 30px;
 }
+.footer-logo{
+    width: 160px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+    transform: scale(2.3);     
+  }
 .footer-top{
     display: flex;
     justify-content: space-between;
@@ -57,4 +64,23 @@
 .footer-subscribe:hover{
     transform: scale(1.1);
     transition: 0.3s;
+}
+@media (max-width: 768px) {
+    .footer{
+        margin: 50px 70px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-top-right{
+        justify-content: space-between;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-bottom-right{
+        gap: 30px;
+    }
 }
