@@ -144,6 +144,22 @@
         gap: 20px;
     }
 }
-@media (min-width: 768px) and(min-width: 1024px){
+@media (min-width: 768px) and (max-width: 1030px){
+    .navbar{
+        margin: 20px 5%;
+        container-type: inline-size;
+    }
+    .navbar .nav-logo{
+        width:23cqw;
+      }
 
+    .nav-connect{
+    font-size: 1.5cqw;
+    }
+    .nav-menu{
+        gap: 2cqw;
+    }
+    .nav-menu li{
+        font-size: 1.8cqw;
+    }
 }
