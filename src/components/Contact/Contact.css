@@ -51,9 +51,18 @@
     font-size: 22px;
 }
 .contact-detail{
+    /* display: flex;
+    align-items: center;
+    gap: 20px; */
+}
+.contact-detail a{
+    text-decoration: none;
     display: flex;
     align-items: center;
     gap: 20px;
+}
+.contact-detail a  img{
+    width: 30px;
 }
 .contact-right{
     display: flex;
