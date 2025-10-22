@@ -2,6 +2,8 @@ import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/home_img.jpg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Resume from '../../assets/ABDULMUJEEB_CV.pdf';
+
 
 
 const Hero = () => {
@@ -15,7 +17,14 @@ const Hero = () => {
       <p>I’m a Frontend Developer from Kwara State, Nigeria, with 6+ years of experience creating modern, responsive, and user-friendly web experiences.</p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume"><a 
+        href={Resume} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        download
+      >
+        My resume
+      </a></div>
       </div>
     </div>
   )
