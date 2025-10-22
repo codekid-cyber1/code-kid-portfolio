@@ -54,7 +54,7 @@ const Contact = () => {
   return (
     <div id='contact' className='contact'>
         <div className="contact-title">
-            <h1>Geet in touch</h1>
+            <h1>Get in touch</h1>
             <img src={theme_pattern} alt="" />
         </div>
         <div className="contact-section">
