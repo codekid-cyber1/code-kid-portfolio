@@ -78,12 +78,7 @@ const Contact = () => {
                         
                     </div>
                     <div className="contact-detail">
-                      <a 
-                        href="tel:+2348133780225" 
-                        target="_blank"            
-                        rel="noopener noreferrer"
-                        aria-label="GitHub Profile"
-                      >
+                      <a>
                        <img src={call_icon} alt="" />
                         <p>+234-813-378-0225</p> 
                       </a>
@@ -96,7 +91,7 @@ const Contact = () => {
                         aria-label="GitHub Profile"
                       >
                         <img src={github_icon} alt="" />
-                        <p>codekid-cyber1</p>
+                        <p>codekid-cyber1 on GitHub</p>
                       </a>
                     </div>
                     <div className="contact-detail">
@@ -107,7 +102,7 @@ const Contact = () => {
                         aria-label="GitHub Profile"
                       >
                         <img src={x_icon} alt="" />
-                        <p>AbdulmujeebAwo1</p>
+                        <p>AbdulmujeebAwo1 on X</p>
                       </a>
                         
                     </div>
